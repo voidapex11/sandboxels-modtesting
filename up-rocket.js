@@ -8,7 +8,7 @@ elements.upRocket = {
     reactions: {
         "water": { elem1:"rock", elem2:"steam" }
     },
-    category: "weapons",
+    category: "weaponss",
     temp:600,
     tempLow: -100,
     stateLow: "rock",
