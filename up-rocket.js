@@ -21,3 +21,27 @@ elements.upRocket = {
     excludeRandom: true,
     cooldown: defaultCooldown
 }
+
+elements.stonks = {
+//    color: ["#782828","#783b28","#784b28"],
+    behavior: [
+        "M2|M1 AND EX:8|M2",
+        "XX|CC:782828,783b28,784b28%25|XX",
+        "XX|CR:fire%25|XX",
+    ],
+    reactions: {
+        "water": { elem1:"rock", elem2:"steam" }
+    },
+    category: "weapons",
+    temp:600,
+    tempLow: -100,
+    stateLow: "rock",
+    burning: true,
+    burnInto: ["rock","rock","steam"],
+    burnTime: 170,
+    burn: 100,
+    state: "solid",
+    density: 1600,
+    excludeRandom: true,
+    cooldown: defaultCooldown
+},
