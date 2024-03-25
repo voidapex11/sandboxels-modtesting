@@ -2,7 +2,7 @@ elements.info = {
     category: "mods",
 };
 
-elements.mayo = {
+elements.mayyyyo = {
     color: "#ffffff",
     behavior: behaviors.LIQUID,
     category: "liquids",
