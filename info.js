@@ -11,6 +11,17 @@ elements.mayyyyo = {
     density: 720,
 };
 
+elements.sand_exploder = {
+    color: "#ff0000",
+    tool: function(pixel) {
+        if (pixel.element == "sand") {
+            pixel.element = "explosion"
+        }
+    },
+    category: "tools",
+};
+
+
 behaviors.info.tick = function(pixel) {
     alert('hi')
 };
