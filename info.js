@@ -1,11 +1,11 @@
 elements.info = {
-    category: "mods",
+    category: "land",
 };
 
 elements.mayyyyo = {
     color: "#ffffff",
     behavior: behaviors.LIQUID,
-    category: "liquids",
+    category: "land",
     viscosity: 100000,
     state: "liquid",
     density: 720,
